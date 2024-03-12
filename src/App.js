@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState, useEffect } from "react";
 
 const Stopwatch = () => {
@@ -50,7 +51,7 @@ const Stopwatch = () => {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{ marginLeft: "20px" }}>
       <h1>Countdown Timer</h1>
       {isEditing ? (
         <div>
